@@ -8,7 +8,6 @@ import sys
 
 # Complete the solve function below.
 def solve(s):
-    str_ou = ""
     for item in s.split():
         temp_item = item[0].upper()+item[1:]
         s = s.replace(item,temp_item)
